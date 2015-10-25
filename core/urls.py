@@ -3,4 +3,5 @@ from .views import *
 
 urlpatterns = patterns('',
     url(r'^$', Home.as_view(), name='home'),
+    url(r'^request/create/$', RequestCreateView.as_view(), name='request_create'),
 )
