@@ -1,0 +1,1 @@
+web: gunicorn jordan_store.wsgi --log-file -
