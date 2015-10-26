@@ -12,5 +12,7 @@ class RequestCreateView(CreateView):
     fields = ['title', 'description']
     success_url = reverse_lazy('home')
 
+class Success(TemplateView):
+    template_name = "success.html"
 
 # Create your views here.
